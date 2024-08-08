@@ -1,0 +1,229 @@
+﻿namespace K5GLONLINE
+{
+    partial class frmrptAging
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.cbortprint = new System.Windows.Forms.ComboBox();
+            this.btnPreview = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblEnterDate = new System.Windows.Forms.Label();
+            this.txtEnterDate = new System.Windows.Forms.MaskedTextBox();
+            this.cboPC = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblBeginDate = new System.Windows.Forms.Label();
+            this.txtBeginDate = new System.Windows.Forms.MaskedTextBox();
+            this.lblASD = new System.Windows.Forms.Label();
+            this.txtASD = new System.Windows.Forms.MaskedTextBox();
+            this.SuspendLayout();
+            // 
+            // crystalReportViewer1
+            // 
+            this.crystalReportViewer1.ActiveViewIndex = -1;
+            this.crystalReportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.crystalReportViewer1.Location = new System.Drawing.Point(12, 78);
+            this.crystalReportViewer1.Name = "crystalReportViewer1";
+            this.crystalReportViewer1.SelectionFormula = "";
+            this.crystalReportViewer1.Size = new System.Drawing.Size(1141, 443);
+            this.crystalReportViewer1.TabIndex = 4;
+            this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
+            this.crystalReportViewer1.ViewTimeSelectionFormula = "";
+            // 
+            // cbortprint
+            // 
+            this.cbortprint.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbortprint.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbortprint.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbortprint.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbortprint.FormattingEnabled = true;
+            this.cbortprint.Location = new System.Drawing.Point(116, 5);
+            this.cbortprint.Name = "cbortprint";
+            this.cbortprint.Size = new System.Drawing.Size(333, 27);
+            this.cbortprint.TabIndex = 0;
+            this.cbortprint.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nextfieldenter);
+            this.cbortprint.Validating += new System.ComponentModel.CancelEventHandler(this.cbortprint_Validating);
+            // 
+            // btnPreview
+            // 
+            this.btnPreview.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPreview.Location = new System.Drawing.Point(1080, 12);
+            this.btnPreview.Name = "btnPreview";
+            this.btnPreview.Size = new System.Drawing.Size(75, 23);
+            this.btnPreview.TabIndex = 5;
+            this.btnPreview.Text = "&Preview";
+            this.btnPreview.UseVisualStyleBackColor = true;
+            this.btnPreview.Click += new System.EventHandler(this.btnPreview_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(11, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 19);
+            this.label1.TabIndex = 32;
+            this.label1.Text = "Report to Print";
+            // 
+            // lblEnterDate
+            // 
+            this.lblEnterDate.AutoSize = true;
+            this.lblEnterDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEnterDate.Location = new System.Drawing.Point(483, 38);
+            this.lblEnterDate.Name = "lblEnterDate";
+            this.lblEnterDate.Size = new System.Drawing.Size(45, 19);
+            this.lblEnterDate.TabIndex = 36;
+            this.lblEnterDate.Text = "Date :";
+            // 
+            // txtEnterDate
+            // 
+            this.txtEnterDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEnterDate.Location = new System.Drawing.Point(562, 38);
+            this.txtEnterDate.Mask = "00/00/0000";
+            this.txtEnterDate.Name = "txtEnterDate";
+            this.txtEnterDate.Size = new System.Drawing.Size(107, 26);
+            this.txtEnterDate.TabIndex = 3;
+            this.txtEnterDate.ValidatingType = typeof(System.DateTime);
+            this.txtEnterDate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nextfieldenter);
+            this.txtEnterDate.Leave += new System.EventHandler(this.txtEnterDate_Leave);
+            // 
+            // cboPC
+            // 
+            this.cboPC.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cboPC.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cboPC.Enabled = false;
+            this.cboPC.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboPC.FormattingEnabled = true;
+            this.cboPC.Location = new System.Drawing.Point(116, 38);
+            this.cboPC.Name = "cboPC";
+            this.cboPC.Size = new System.Drawing.Size(333, 27);
+            this.cboPC.TabIndex = 1;
+            this.cboPC.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nextfieldenter);
+            this.cboPC.Validating += new System.ComponentModel.CancelEventHandler(this.cboPC_Validating);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(41, 41);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(66, 19);
+            this.label2.TabIndex = 38;
+            this.label2.Text = "Salesman";
+            // 
+            // lblBeginDate
+            // 
+            this.lblBeginDate.AutoSize = true;
+            this.lblBeginDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBeginDate.Location = new System.Drawing.Point(473, 8);
+            this.lblBeginDate.Name = "lblBeginDate";
+            this.lblBeginDate.Size = new System.Drawing.Size(83, 19);
+            this.lblBeginDate.TabIndex = 40;
+            this.lblBeginDate.Text = "Begin Date :";
+            this.lblBeginDate.Visible = false;
+            // 
+            // txtBeginDate
+            // 
+            this.txtBeginDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBeginDate.Location = new System.Drawing.Point(562, 6);
+            this.txtBeginDate.Mask = "00/00/0000";
+            this.txtBeginDate.Name = "txtBeginDate";
+            this.txtBeginDate.Size = new System.Drawing.Size(107, 26);
+            this.txtBeginDate.TabIndex = 2;
+            this.txtBeginDate.ValidatingType = typeof(System.DateTime);
+            this.txtBeginDate.Visible = false;
+            this.txtBeginDate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nextfieldenter);
+            // 
+            // lblASD
+            // 
+            this.lblASD.AutoSize = true;
+            this.lblASD.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblASD.Location = new System.Drawing.Point(726, 7);
+            this.lblASD.Name = "lblASD";
+            this.lblASD.Size = new System.Drawing.Size(82, 19);
+            this.lblASD.TabIndex = 42;
+            this.lblASD.Text = "As of Date :";
+            this.lblASD.Visible = false;
+            // 
+            // txtASD
+            // 
+            this.txtASD.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtASD.Location = new System.Drawing.Point(815, 5);
+            this.txtASD.Mask = "00/00/0000";
+            this.txtASD.Name = "txtASD";
+            this.txtASD.Size = new System.Drawing.Size(107, 26);
+            this.txtASD.TabIndex = 4;
+            this.txtASD.ValidatingType = typeof(System.DateTime);
+            this.txtASD.Visible = false;
+            this.txtASD.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nextfieldenter);
+            // 
+            // frmrptAging
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1165, 530);
+            this.Controls.Add(this.lblASD);
+            this.Controls.Add(this.txtASD);
+            this.Controls.Add(this.lblBeginDate);
+            this.Controls.Add(this.txtBeginDate);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.cboPC);
+            this.Controls.Add(this.lblEnterDate);
+            this.Controls.Add(this.txtEnterDate);
+            this.Controls.Add(this.cbortprint);
+            this.Controls.Add(this.btnPreview);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.crystalReportViewer1);
+            this.Name = "frmrptAging";
+            this.Text = "Aging";
+            this.Load += new System.EventHandler(this.frmrptIndividualLedger_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
+        private System.Windows.Forms.ComboBox cbortprint;
+        private System.Windows.Forms.Button btnPreview;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblEnterDate;
+        private System.Windows.Forms.MaskedTextBox txtEnterDate;
+        private System.Windows.Forms.ComboBox cboPC;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblBeginDate;
+        private System.Windows.Forms.MaskedTextBox txtBeginDate;
+        private System.Windows.Forms.Label lblASD;
+        private System.Windows.Forms.MaskedTextBox txtASD;
+
+    }
+}

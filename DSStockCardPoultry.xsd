@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSStockCardPoultry" targetNamespace="http://tempuri.org/DSStockCardPoultry.xsd" xmlns:mstns="http://tempuri.org/DSStockCardPoultry.xsd" xmlns="http://tempuri.org/DSStockCardPoultry.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSStockCardPoultry" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSStockCardPoultry" msprop:Generator_UserDSName="DSStockCardPoultry">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TDate" msprop:Generator_ColumnVarNameInTable="columnTDate" msprop:Generator_ColumnPropNameInRow="TDate" msprop:Generator_ColumnPropNameInTable="TDateColumn" msprop:Generator_UserColumnName="TDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CSeries" msprop:Generator_ColumnVarNameInTable="columnCSeries" msprop:Generator_ColumnPropNameInRow="CSeries" msprop:Generator_ColumnPropNameInTable="CSeriesColumn" msprop:Generator_UserColumnName="CSeries" type="xs:string" minOccurs="0" />
+              <xs:element name="Reference" msprop:Generator_ColumnVarNameInTable="columnReference" msprop:Generator_ColumnPropNameInRow="Reference" msprop:Generator_ColumnPropNameInTable="ReferenceColumn" msprop:Generator_UserColumnName="Reference" type="xs:string" minOccurs="0" />
+              <xs:element name="CustName" msprop:Generator_ColumnVarNameInTable="columnCustName" msprop:Generator_ColumnPropNameInRow="CustName" msprop:Generator_ColumnPropNameInTable="CustNameColumn" msprop:Generator_UserColumnName="CustName" type="xs:string" minOccurs="0" />
+              <xs:element name="PIn" msprop:Generator_ColumnVarNameInTable="columnPIn" msprop:Generator_ColumnPropNameInRow="PIn" msprop:Generator_ColumnPropNameInTable="PInColumn" msprop:Generator_UserColumnName="PIn" type="xs:double" minOccurs="0" />
+              <xs:element name="POut" msprop:Generator_ColumnVarNameInTable="columnPOut" msprop:Generator_ColumnPropNameInRow="POut" msprop:Generator_ColumnPropNameInTable="POutColumn" msprop:Generator_UserColumnName="POut" type="xs:double" minOccurs="0" />
+              <xs:element name="QtyBal" msprop:Generator_ColumnVarNameInTable="columnQtyBal" msprop:Generator_ColumnPropNameInRow="QtyBal" msprop:Generator_ColumnPropNameInTable="QtyBalColumn" msprop:Generator_UserColumnName="QtyBal" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalCost" msprop:Generator_ColumnVarNameInTable="columnTotalCost" msprop:Generator_ColumnPropNameInRow="TotalCost" msprop:Generator_ColumnPropNameInTable="TotalCostColumn" msprop:Generator_UserColumnName="TotalCost" type="xs:double" minOccurs="0" />
+              <xs:element name="ChickIn" msprop:Generator_ColumnVarNameInTable="columnChickIn" msprop:Generator_ColumnPropNameInRow="ChickIn" msprop:Generator_ColumnPropNameInTable="ChickInColumn" msprop:Generator_UserColumnName="ChickIn" type="xs:int" minOccurs="0" />
+              <xs:element name="ChickOut" msprop:Generator_ColumnVarNameInTable="columnChickOut" msprop:Generator_ColumnPropNameInRow="ChickOut" msprop:Generator_ColumnPropNameInTable="ChickOutColumn" msprop:Generator_UserColumnName="ChickOut" type="xs:int" minOccurs="0" />
+              <xs:element name="ChickQtyBal" msprop:Generator_ColumnVarNameInTable="columnChickQtyBal" msprop:Generator_ColumnPropNameInRow="ChickQtyBal" msprop:Generator_ColumnPropNameInTable="ChickQtyBalColumn" msprop:Generator_UserColumnName="ChickQtyBal" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

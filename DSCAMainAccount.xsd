@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSCAMainAccount" targetNamespace="http://tempuri.org/DSCAMainAccount.xsd" xmlns:mstns="http://tempuri.org/DSCAMainAccount.xsd" xmlns="http://tempuri.org/DSCAMainAccount.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSCAMainAccount" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSCAMainAccount" msprop:Generator_UserDSName="DSCAMainAccount">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AcctNo" msprop:Generator_ColumnVarNameInTable="columnAcctNo" msprop:Generator_ColumnPropNameInRow="AcctNo" msprop:Generator_ColumnPropNameInTable="AcctNoColumn" msprop:Generator_UserColumnName="AcctNo" type="xs:string" minOccurs="0" />
+              <xs:element name="TitleAcct" msprop:Generator_ColumnVarNameInTable="columnTitleAcct" msprop:Generator_ColumnPropNameInRow="TitleAcct" msprop:Generator_ColumnPropNameInTable="TitleAcctColumn" msprop:Generator_UserColumnName="TitleAcct" type="xs:string" minOccurs="0" />
+              <xs:element name="FSClass" msprop:Generator_ColumnVarNameInTable="columnFSClass" msprop:Generator_ColumnPropNameInRow="FSClass" msprop:Generator_ColumnPropNameInTable="FSClassColumn" msprop:Generator_UserColumnName="FSClass" type="xs:string" minOccurs="0" />
+              <xs:element name="FCCode" msprop:Generator_ColumnVarNameInTable="columnFCCode" msprop:Generator_ColumnPropNameInRow="FCCode" msprop:Generator_ColumnPropNameInTable="FCCodeColumn" msprop:Generator_UserColumnName="FCCode" type="xs:string" minOccurs="0" />
+              <xs:element name="SCCode" msprop:Generator_ColumnVarNameInTable="columnSCCode" msprop:Generator_ColumnPropNameInRow="SCCode" msprop:Generator_ColumnPropNameInTable="SCCodeColumn" msprop:Generator_UserColumnName="SCCode" type="xs:string" minOccurs="0" />
+              <xs:element name="NormalBal" msprop:Generator_ColumnVarNameInTable="columnNormalBal" msprop:Generator_ColumnPropNameInRow="NormalBal" msprop:Generator_ColumnPropNameInTable="NormalBalColumn" msprop:Generator_UserColumnName="NormalBal" type="xs:string" minOccurs="0" />
+              <xs:element name="UsageCode" msprop:Generator_ColumnVarNameInTable="columnUsageCode" msprop:Generator_ColumnPropNameInRow="UsageCode" msprop:Generator_ColumnPropNameInTable="UsageCodeColumn" msprop:Generator_UserColumnName="UsageCode" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

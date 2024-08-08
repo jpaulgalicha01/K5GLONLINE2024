@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtBookBalance.Text" xml:space="preserve">
+    <value>========================================06/15/23=======================================
+-CI, CS, RS zero cost posting.
+
+-Product SetUp add Free Goods field para sa zero cost posting.
+
+-Product SetUp edittable ang CS/IB kag IB/PC.
+
+-Product SetUp show ang Package Kilo para sa Volume kag edittable.
+
+-Product SetUp SFACode show and edittable para sa BR Update data.
+
+-Claim Summary Report dugang Year Option.
+
+========================================06/21/23=======================================
+-Product Set Up add set up para sa BR UM.
+
+========================================06/26/23=======================================
+-Inventory Summary Stockcard SMIS sort by date.
+
+-Sales Force Report Added.
+
+========================================06/27/23=======================================
+-Check Search added feature.
+
+========================================06/30/23=======================================
+-Check Voucher Report title account updated.
+-Search Voucher Warehouse not found prompt gin dula.
+-Search Voucher Edit Reference sa Accounting Entry.
+-Return Voucher Remarks Dropdown and Reason added for BR.
+
+========================================07/03/23=======================================
+-Check number show sa report.
+-Sales force BO included and controlNo added.
+-Customer Business Type Added.
+
+========================================07/10/23=======================================
+-Edit Voucher Fix error.
+
+========================================07/11/23=======================================
+-Edit Voucher for RV Value Date Edittable.
+
+========================================07/21/23=======================================
+-fix Edit Voucher for RV.
+
+========================================07/26/23=======================================
+-Sales Force others add principal and province.
+-Log In new feature para sa online connection, PLDT or GLOBE.
+-Check Search remarks pwede ma search.
+
+========================================08/01/23=======================================
+-PD open ang salesman.
+-CV error ang save and print, fixed.
+-BRID dugang sa customer edit.
+
+========================================08/08/23=======================================
+-Customer Add error fixed.
+-Date Encoded pa gwa sa search.
+-Geographical Area Edit dugang sa entry.
+-Customer Edit show ang territory.
+
+========================================08/10/23=======================================
+-Territory/Indicator dugang sa customer edit.
+
+========================================08/16/23=======================================
+-add external id sa cutomer edit.
+
+========================================08/31/23=======================================
+-CI/CS/RS disable ang SP kag PC, himuon KG ang CS kung poultry.
+-CI/CS/RS ang discount indi mag subra sa total.
+-CI/CS/RS qty indi ka type negative, discount indi ka type negative.
+-Good morning rom. Ang e default nga vat transactions are cash and charge invoice, return slips of good and bad stocks,
+ except sa customer nga si C&amp;S (LCIMPC) kay nonvat ni sya nga customer. Ang poultry dapat nakadefault nga nonvat gd or wala naka check ang vat.
+
+========================================10/19/23=======================================
+-Search Entry
+
+========================================11/06/23=======================================
+-Salesman custom report hide ang warehouse.
+-balik sa original ang main menu.
+
+========================================11/07/23=======================================
+-manifest stored procedure
+-search entry wala na clear dgv. fixed.
+-tblCoverNew para sa version para indi ma tandog ang existing version.</value>
+  </data>
+</root>
